@@ -1,0 +1,214 @@
+body {
+    display: block;
+    background: url('back.png');
+    background-repeat: repeat-x;
+    background-size: 27%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-style:oblique;
+}
+
+.belarus img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    width: 20%;
+    box-shadow: 4px 4px 16px rgba(63,63,63,0)
+}
+
+.belarukont img{
+    display: block;
+    width: 30%;
+    transition: 1s;
+}
+
+.belarukont img:hover {
+    width: 40%;
+}
+
+p {
+    text-indent: 24px;
+    padding: 25px;
+    letter-spacing: 0.7px;
+    border: 1.5px solid;
+    border-image: linear-gradient(20deg, #1fb80b 38%, #d30808 65%);
+    border-image-slice: 1;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24em;
+    font-size: 36px;
+}
+
+@media (min-width: 1260px) and (max-width: 1960px) {
+    p {
+        border: 1.5px solid transparent;
+        border-image: linear-gradient(20deg, #1fb80b 38%, #d30808 65%);
+        border-image-slice: 1;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 24em;
+        font-size: 26px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 1260px) {
+    p {
+        border: 1px solid transparent;
+        border-image: linear-gradient(20deg, #1fb80b 38%, #d30808 65%);
+        border-image-slice: 1;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 24em;
+        font-size: 60%;
+    }
+    h1 {
+        text-align: center;
+        font-size: 80%;
+    }
+    h2 {
+        text-align: center;
+        font-size: 80%;
+    }
+}
+
+.photos {
+    position: static;
+}
+
+.photos div {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    position: absolute;
+}
+
+.photos img {
+    border-radius: 75%;
+    margin-bottom: 30px;
+    filter: blur(6px);
+    box-shadow: 4px 4px 14px rgba(63,63,63,0);
+    max-width: 310px;
+    width: 70%;
+    transition: 0.6s;
+}
+
+.photos img:hover {
+    border-radius: 10%;
+    filter: blur(0px);
+}
+
+.pereh img{
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    margin-bottom: 60px;
+    filter: blur(3px);
+    transition: 0.6s;
+    width: 26%;
+    box-shadow: 4px 4px 16px rgba(63,63,63,0)
+}
+
+.pereh img:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    filter: blur(0px);
+    width: 30%;
+    box-shadow: 4px 4px 16px rgba(63,63,63,0)
+}
+
+#leftun {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    position: absolute;
+    box-shadow: 4px 4px 14px rgba(27, 27, 27, 0);
+    width: 20%;
+    top: 80%;
+    left: 13%;
+}
+
+#rightun {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    position: absolute;
+    box-shadow: 4px 4px 14px rgba(27, 27, 27, 0);
+    width: 20%;
+    top: 80%;
+    right: 13%;
+}
+
+@media screen and (max-width:720px) {
+    .pereh img{
+        display: block;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+        width: 60%;
+        box-shadow: 4px 4px 16px rgba(63,63,63,0)
+    }
+    .pereh img:hover{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+        filter: blur(0px);
+        width: 70%;
+        box-shadow: 4px 4px 16px rgba(63,63,63,0)
+    }
+    #leftun {
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0;
+        position: absolute;
+        width: 20%;
+        left: 0;
+        top: 200px;
+    }
+    #rightun {
+        margin-left: auto;
+        margin-right: 0;
+        margin: 0;
+        position: absolute;
+        width: 20%;
+        left: 80.1%;
+        top: 200px;
+    }
+}
+
+.fl {
+    text-align: center;
+    border: 0;
+    margin-top: 0;
+    margin-bottom: 1px;
+    padding-top: 15px;
+}
