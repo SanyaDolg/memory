@@ -1,3 +1,7 @@
+* {
+    margin:0;
+}
+
 body {
     display: block;
     background: url('back.png');
